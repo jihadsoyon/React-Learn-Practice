@@ -1,0 +1,71 @@
+:root {
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  justify-content: center; 
+  align-items: center; 
+  /* ডার্ক গ্রে ব্যাকগ্রাউন্ড */
+  background-color: #242424; 
+  /* সব টেক্সট সাদা করার জন্য */
+  color: white; 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #242424; /* বডিকেও সেম কালার দিন */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5rem 2rem; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: none; 
+  background-color: transparent;
+  box-shadow: none; 
+}
+
+/* বাটনের কালার একটু ব্রাইট করলে ডার্ক মোডে সুন্দর দেখাবে */
+button {
+  display: flex;
+  border-radius: 8px;
+  border: 2px solid #000000; /* বর্ডার হালকা উজ্জ্বল করা হয়েছে */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: fit-content; 
+  margin: 0 auto; 
+}
+
+button:hover {
+  background-color: #2a2a2a;
+  border-color: #646cff;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  color: #ffffff; /* হেডিং সাদা */
+}
+h1{
+  color: #ffffff; /* হেডিং সাদা */ 
+}
+
+.card{
+  border: 2px solid gold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}

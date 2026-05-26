@@ -1,0 +1,34 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+h1, h3, ol {
+  color: #FFF;
+  text-align: left;
+}
+
+.visited-flags-container img{
+ width: 120px;
+ margin-right: 10px;
+
+}
+
+/* @media screen and (max-width: 1200px) {
+  .countries {
+    grid-template-columns: repeat(2, 1fr); /* ২টি কলাম দেখাবে */
+  /* }
+} */
+
+/* মোবাইলের জন্য (৬০০ পিক্সেলের নিচে) */
+/* @media screen and (max-width: 600px) {
+  .countries {
+    grid-template-columns: repeat(1, 1fr); /* ১টি কলাম (এটির নিচে ওটি) দেখাবে */
+  /* } */
+  
+  /* মোবাইলে ছবিগুলো যাতে স্ক্রিনের বাইরে না যায় */
+  /* .visited-flags-container img {
+    width: 80px;  */
+  /* } */
+/* } */ 

@@ -1,0 +1,71 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  min-height: 100vh;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  overflow: visible;
+}
+
+/* Board */
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Column */
+.column {
+  background: #1e293b;
+  padding: 16px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+
+
+.column-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Card */
+.card {
+  background: #334155;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: grab;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background: #475569;
+  transform: scale(1.02);
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+/* Dragging effect */
+.dragging {
+  background: #6366f1 !important;
+  color: white;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "playerName": "Lionel Messi",
+    "playerCountry": "Argentina",
+    "playerType": "Forward",
+    "rating": 9.8,
+    "battingStyle": "Attacking Midfielder",
+    "bowlingStyle": "Right Wing Forward",
+    "price": 15000,
+    "playerImage": "https://i.ibb.co.com/5xCtTPXg/messi.jpg"
+  },
+  {
+    "playerName": "Cristiano Ronaldo",
+    "playerCountry": "Portugal",
+    "playerType": "Striker",
+    "rating": 9.5,
+    "battingStyle": "Left Wing Forward",
+    "bowlingStyle": "Center Forward",
+    "price": 14500,
+    "playerImage": "https://i.ibb.co.com/fYRFJJ9K/Ronaldo.jpg"
+  },
+  {
+    "playerName": "Ronaldinho Gaucho",
+    "playerCountry": "Brazil",
+    "playerType": "Forward",
+    "rating": 9.3,
+    "battingStyle": "Left Wing Forward",
+    "bowlingStyle": "Attacking Midfielder",
+    "price": 14000,
+    "playerImage": "https://i.ibb.co.com/MDS1BcBq/Ronaldinho.webp"
+  },
+  {
+    "playerName": "Neymar JR",
+    "playerCountry": "Brazil",
+    "playerType": "Forward",
+    "rating": 9.4,
+    "battingStyle": "Left Wing Forward",
+    "bowlingStyle": "Attacking Midfielder",
+    "price": 13500,
+    "playerImage": "https://i.ibb.co.com/b5j8fB6H/Neymar.jpg"
+  },
+  {
+    "playerName": "Kylian Mbappe",
+    "playerCountry": "France",
+    "playerType": "Forward",
+    "rating": 9.2,
+    "battingStyle": "Right Wing Forward",
+    "bowlingStyle": "Center Forward",
+    "price": 12000,
+    "playerImage": "https://i.ibb.co.com/xScTwHrq/mbappe.jpg"
+  },
+  {
+    "playerName": "Sergio ramos",
+    "playerCountry": "Spain",
+    "playerType": "Defender",
+    "rating": 9.6,
+    "battingStyle": "Center Back",
+    "bowlingStyle": "Right Back",
+    "price": 11500,
+    "playerImage": "https://i.ibb.co.com/Z6wjfg3g/ramos.jpg"
+  }
+]
