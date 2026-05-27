@@ -1,10 +1,10 @@
-# 🌦 Weather Dashboard App
+# Weather Dashboard App
 
 A modern React weather application that allows users to search cities and view real-time weather information using the OpenWeatherMap API.
 
 ---
 
-## 🚀 Problems Solved By This Project
+## Problems Solved By This Project
 
 * Real-time API data fetching
 * Async state handling in React
@@ -14,7 +14,7 @@ A modern React weather application that allows users to search cities and view r
 
 ---
 
-## ✨ Features
+## Features
 
 * 🔍 Search weather by city
 * 🌡 Real-time temperature display
@@ -25,6 +25,10 @@ A modern React weather application that allows users to search cities and view r
 * 🎨 Modern responsive UI
 
 ---
+
+## Screenshot
+
+<img width="1919" height="816" alt="image" src="https://github.com/user-attachments/assets/f4b39f79-2d89-47dc-a4df-b97569a67df9" />
 
 ## 🛠 Tech Stack
 
