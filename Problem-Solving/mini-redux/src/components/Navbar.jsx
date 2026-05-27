@@ -3,7 +3,8 @@ import ThemeToggle from "./ThemeToggle";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2>Mini Redux</h2>
+      <h1 className="logo">⚡ Mini Redux</h1>
+
       <ThemeToggle />
     </nav>
   );

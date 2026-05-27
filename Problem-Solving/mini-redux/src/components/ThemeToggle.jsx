@@ -6,10 +6,10 @@ const ThemeToggle = () => {
 
   return (
     <button
+      className="btn theme-btn"
       onClick={() => dispatch({ type: "TOGGLE_THEME" })}
-      className="btn"
     >
-      {state.theme === "light" ? "Dark Mode" : "Light Mode"}
+      {state.theme === "light" ? "🌙 Dark Mode" : "☀ Light Mode"}
     </button>
   );
 };
