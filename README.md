@@ -10,35 +10,39 @@ This repository represents everything I've learned in React — from fundamental
 
 Here are some of my deployed React projects:
 
-### 🔹 1. Remote Job Finder
+### 🔹 AI StudyMate
+
+🔗 https://ai-studypartnar.netlify.app/
+
+### 🔹 Remote Job Finder
 
 🔗 https://remote-job-finder.netlify.app/
 
-### 🔹 2. BloodFinder
+### 🔹 BloodFinder
 
 🔗 https://blood-fiinder.netlify.app/
 
-### 🔹 3. Keen Keeper
+### 🔹 Keen Keeper
 
 🔗 https://keen-keeper0.netlify.app/
 
-### 🔹 4. Book Vibes
+### 🔹 Book Vibes
 
 🔗 https://boook-vibes.netlify.app/
 
-### 🔹 5. Digitools Platform
+### 🔹 Digitools Platform
 
 🔗 https://digitools-platformm.netlify.app/
 
-### 🔹 6. Dream Soccer Trio
+### 🔹 Dream Soccer Trio
 
 🔗 https://dream-soccer-trio3.netlify.app/
 
-### 🔹 7. React World
+### 🔹 React World
 
 🔗 http://jihads-react-world.surge.sh/
 
-### 🔹 8. DevPulse
+### 🔹 DevPulse
 
 🔗 https://dev0pulse.netlify.app/
 

@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 Live Link
-🔗 **[Coming Soon — Deploy on Vercel/Netlify]**
+🔗 https://ai-studypartnar.netlify.app/
 
 > To deploy: `npm run build` → upload `dist/` folder to [Netlify Drop](https://app.netlify.com/drop)
 
