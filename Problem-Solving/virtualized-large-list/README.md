@@ -1,16 +1,39 @@
-# React + Vite
+# 🚀 Virtualized Large List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance React application that efficiently renders 10,000+ list items using virtualization techniques.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Problems Solved By This Project
 
-## React Compiler
+- Prevents unnecessary rendering of huge datasets
+- Improves scrolling performance
+- Reduces DOM node overload
+- Optimizes React rendering performance
+- Demonstrates scalable frontend architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Render 10,000+ items smoothly
+- Virtualized rendering using react-window
+- Only visible items are rendered
+- Smooth scrolling experience
+- Optimized performance
+- Modern responsive UI
+
+---
+
+## ✨ Screenshot
+
+<img width="1907" height="787" alt="image" src="https://github.com/user-attachments/assets/2fa10897-5e51-4122-ae2b-883819f362cb" />
+
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- react-window
