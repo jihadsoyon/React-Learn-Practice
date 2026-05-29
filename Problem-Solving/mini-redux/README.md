@@ -1,10 +1,10 @@
-# 🚀 Mini Redux - Global State Manager
+# Mini Redux - Global State Manager
 
 A scalable React global state management project built using Context API and useReducer.
 
 ---
 
-## ✨ Features
+## Features
 
 - Global Theme State
 - Global Cart State
@@ -17,7 +17,7 @@ A scalable React global state management project built using Context API and use
 
 ---
 
-## 🧠 Problems Solved By This Project
+## Problems Solved By This Project
 
 - Prop Drilling Problem
 - Scalable State Management
@@ -27,7 +27,13 @@ A scalable React global state management project built using Context API and use
 
 ---
 
-## 🛠️ Tech Stack
+## Screenshot
+
+<img width="1919" height="721" alt="image" src="https://github.com/user-attachments/assets/78ca8569-b96c-402d-8315-d9b035228cad" />
+
+---
+
+## Tech Stack
 
 - React
 - Context API
