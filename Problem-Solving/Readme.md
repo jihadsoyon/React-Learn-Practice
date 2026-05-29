@@ -208,6 +208,45 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 17. Weather Dashboard App
+- API integration showcase
+
+**Requirements:**
+- Search city
+- Fetch weather API
+- Show temperature/humidity
+
+**Challenge::**
+- Async API handling
+- Error/loading states
+  
+---
+
+### 18. Global State Manager (Mini Redux)
+- React mastery indicator
+
+**Requirements:**
+- Context API + useReducer
+- Global cart/user/theme state
+- Dispatch actions
+
+**Challenge::**
+- Scalable state architecture
+  
+---
+
+### 19. Virtualized Large List
+- HUGE performance engineering skill
+
+**Requirements:**
+- CRender 10,000+ items
+- Smooth scrolling
+- Only visible items render
+
+**Challenge::**
+- Performance optimization
+  
+---
 
 ## 🧠 What I Learned
 
