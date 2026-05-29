@@ -1,19 +1,22 @@
+import { memo } from "react";
 import { FixedSizeList as List } from "react-window";
 import items from "../data/items";
 
-const Row = ({ index, style }) => (
-  <div style={style} className="row">
-    {items[index].name}
+const Row = memo(({ index, style }) => (
+  <div style={style}>
+    <div className="row">
+      #{items[index].id} - {items[index].name}
+    </div>
   </div>
-);
+));
 
 const VirtualizedList = () => {
   return (
     <List
-      height={500}
+      height={600}
       itemCount={items.length}
-      itemSize={60}
-      width={"100%"}
+      itemSize={70}
+      width={700}
     >
       {Row}
     </List>
