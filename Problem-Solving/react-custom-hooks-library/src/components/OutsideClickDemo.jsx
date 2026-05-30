@@ -9,19 +9,22 @@ export default function OutsideClickDemo() {
   useOutsideClick(ref, () => setOpen(false));
 
   return (
-    <div>
+    <div className="card">
       <h2>useOutsideClick</h2>
 
-      {open && (
+      {open ? (
         <div
           ref={ref}
-          style={{
-            border: "1px solid black",
-            padding: "20px"
-          }}
+          className="outside-box"
         >
           Click outside me
         </div>
+      ) : (
+        <button
+          onClick={() => setOpen(true)}
+        >
+          Open Again
+        </button>
       )}
     </div>
   );

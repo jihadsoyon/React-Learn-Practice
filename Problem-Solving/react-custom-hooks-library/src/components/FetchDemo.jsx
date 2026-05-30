@@ -5,15 +5,22 @@ export default function FetchDemo() {
     "https://jsonplaceholder.typicode.com/users"
   );
 
-  if (loading) return <p>Loading...</p>;
-
   return (
-    <div>
+    <div className="card">
       <h2>useFetch</h2>
 
-      {data.map(user => (
-        <p key={user.id}>{user.name}</p>
-      ))}
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        data.map((user) => (
+          <p
+            key={user.id}
+            className="result"
+          >
+            {user.name}
+          </p>
+        ))
+      )}
     </div>
   );
 }

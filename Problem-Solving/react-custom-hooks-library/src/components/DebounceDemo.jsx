@@ -7,15 +7,18 @@ export default function DebounceDemo() {
   const debouncedValue = useDebounce(search);
 
   return (
-    <div>
+    <div className="card">
       <h2>useDebounce</h2>
 
       <input
+        placeholder="Search..."
         value={search}
-        onChange={e => setSearch(e.target.value)}
+        onChange={(e) => setSearch(e.target.value)}
       />
 
-      <p>Debounced: {debouncedValue}</p>
+      <p className="result">
+        Debounced: {debouncedValue}
+      </p>
     </div>
   );
 }

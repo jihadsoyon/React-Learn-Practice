@@ -4,15 +4,16 @@ export default function LocalStorageDemo() {
   const [name, setName] = useLocalStorage("name", "");
 
   return (
-    <div>
+    <div className="card">
       <h2>useLocalStorage</h2>
 
       <input
+        placeholder="Enter your name"
         value={name}
-        onChange={e => setName(e.target.value)}
+        onChange={(e) => setName(e.target.value)}
       />
 
-      <p>{name}</p>
+      <p className="result">{name}</p>
     </div>
   );
 }

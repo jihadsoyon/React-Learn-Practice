@@ -1,16 +1,51 @@
-# React + Vite
+# 🚀 Reusable Custom Hooks Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of reusable React custom hooks built to improve code reusability, abstraction, and developer productivity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Problems Solved
 
-## React Compiler
+This project helps solve common React development challenges:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Reusing logic across multiple components
+- Managing toggle states efficiently
+- Persisting data with localStorage
+- Optimizing search inputs using debounce
+- Handling API requests in a reusable way
+- Detecting clicks outside components
+- Reducing duplicate code
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### useToggle
+- Toggle boolean state
+- Reusable show/hide logic
+
+### useLocalStorage
+- Save data in localStorage
+- Persist state across page refreshes
+
+### useDebounce
+- Delay updates
+- Reduce unnecessary API calls
+
+### useFetch
+- Reusable API fetching logic
+- Loading state management
+
+### useOutsideClick
+- Detect clicks outside elements
+- Useful for modals, dropdowns, tooltips
+
+---
+
+## Tech Stack
+
+- React
+- JavaScript (ES6+)
+- React Hooks
+- Fetch API
+- LocalStorage API
