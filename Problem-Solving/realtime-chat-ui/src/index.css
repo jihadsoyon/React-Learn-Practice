@@ -123,3 +123,52 @@ body {
 .message-input-container button:hover {
   background: #2563eb;
 }
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background: #94a3b8;
+  border-radius: 50%;
+  animation: bounce 1.2s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-6px);
+  }
+}
+
+.message-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.message-list::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border-radius: 10px;
+}
+
+.message-list::-webkit-scrollbar-track {
+  background: transparent;
+}
