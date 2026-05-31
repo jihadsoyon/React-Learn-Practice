@@ -42,6 +42,11 @@ This project helps solve common React development challenges:
 
 ---
 
+### Screenshot
+
+<img width="1904" height="902" alt="image" src="https://github.com/user-attachments/assets/93c3bf08-d3b5-46f2-8a33-d52a6a800e6e" />
+
+
 ## Tech Stack
 
 - React
