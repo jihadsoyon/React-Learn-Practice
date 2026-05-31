@@ -5,7 +5,9 @@ const MessageList = ({ messages }) => {
         <div
           key={message.id}
           className={`message ${
-            message.sender === "You" ? "user-message" : "bot-message"
+            message.sender === "You"
+              ? "user-message"
+              : "bot-message"
           }`}
         >
           <p>{message.text}</p>
