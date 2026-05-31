@@ -77,3 +77,49 @@ body {
   font-size: 12px;
   opacity: 0.7;
 }
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.message-input-container {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  background: #334155;
+}
+
+.message-input-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 10px;
+  background: #475569;
+  color: white;
+}
+
+.message-input-container input::placeholder {
+  color: #cbd5e1;
+}
+
+.message-input-container button {
+  border: none;
+  cursor: pointer;
+  width: 48px;
+  border-radius: 10px;
+  background: #3b82f6;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.message-input-container button:hover {
+  background: #2563eb;
+}
