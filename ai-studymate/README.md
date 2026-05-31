@@ -95,8 +95,8 @@ src/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/ai-studymate.git
-cd ai-studymate
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
+cd React-Learn-Practice/ai-studymate
 
 # 2. Install dependencies
 npm install
