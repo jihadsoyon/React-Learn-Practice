@@ -248,6 +248,35 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 20. Reusable Custom Hooks Library
+- Senior frontend mindset
+
+**Requirements:**
+- useDebounce
+- useLocalStorage
+- useFetch
+- useToggle
+- useOutsideClick
+
+**Challenge::**
+- Abstraction & reusability
+  
+---
+
+### 21. Real-Time Chat UI
+- SaaS-level frontend
+
+**Requirements:**
+- Chat layout
+- Real-time message update
+- Typing indicator
+- Auto scroll
+
+**Challenge::**
+- Complex UI sync
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
