@@ -277,6 +277,20 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 22. Advanced Dashboard Analytics
+- Enterprise frontend
+
+**Requirements:**
+- Charts
+- Statistics cards
+- Filter by date
+- Responsive layout
+
+**Challenge::**
+- Data visualization
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
@@ -296,9 +310,6 @@ Through these projects, I have strengthened my understanding of:
 - JavaScript (ES6+)  
 - HTML5  
 - CSS3 / Tailwind (if used)  
-
----
-
 
 ---
 
