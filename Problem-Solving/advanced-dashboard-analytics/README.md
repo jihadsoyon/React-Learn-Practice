@@ -20,7 +20,7 @@ A modern analytics dashboard built with React that visualizes business metrics a
 - Clean Component-Based Architecture
 
 
-## Features
+## ScreenShot
 
 <img width="1919" height="924" alt="image" src="https://github.com/user-attachments/assets/ab53b613-0f2a-4d96-a073-ede10602320d" />
 
