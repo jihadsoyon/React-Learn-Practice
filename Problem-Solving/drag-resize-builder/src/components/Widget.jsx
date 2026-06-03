@@ -10,10 +10,27 @@ const Widget = ({ widget }) => {
         height: 150,
       }}
       bounds="parent"
-      enableResizing={false}
+      enableResizing={{
+        top: true,
+        right: true,
+        bottom: true,
+        left: true,
+        topRight: true,
+        bottomRight: true,
+        bottomLeft: true,
+        topLeft: true,
+      }}
+      minWidth={200}
+      minHeight={120}
     >
       <div className="widget">
-        <h3>{widget.title}</h3>
+        <div className="widget-header">
+          <span>{widget.title}</span>
+        </div>
+
+        <div className="widget-content">
+          Widget Content
+        </div>
       </div>
     </Rnd>
   );
