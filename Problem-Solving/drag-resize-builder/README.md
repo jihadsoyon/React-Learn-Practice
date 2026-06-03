@@ -1,16 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Drag & Resize Components Builder
 
-Currently, two official plugins are available:
+A React-based dashboard builder that allows users to drag, resize, and persist widgets dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Problems Solved
 
-## React Compiler
+- Dynamic dashboard customization
+- Widget positioning
+- Resizable layouts
+- Persistent UI state
+- Reusable component architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Drag widgets anywhere
+- Resize widgets dynamically
+- Save layout using Local Storage
+- Responsive dashboard design
+- Reusable widget components
+- Smooth user interactions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+
+<img width="1918" height="903" alt="image" src="https://github.com/user-attachments/assets/d177dcd5-35d6-4fbb-ba2a-0a784f78c21a" />
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- react-rnd
+- CSS3
+- Local Storage
