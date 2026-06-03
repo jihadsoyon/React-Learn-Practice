@@ -2,13 +2,16 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <>
-      <h1 className="app-title">
-        🚀 Drag & Resize Components Builder
-      </h1>
+    <div className="app">
+      <header className="topbar">
+        <div>
+          <h1>🚀 Drag & Resize Components Builder</h1>
+          <p>Custom Dashboard Layout Manager</p>
+        </div>
+      </header>
 
       <Dashboard />
-    </>
+    </div>
   );
 }
 

@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,22 +7,69 @@
 }
 
 body {
-  background: #0f172a;
+  font-family: Inter, sans-serif;
+  background: #020617;
   color: white;
   min-height: 100vh;
-  font-family: Inter, sans-serif;
 }
 
-.app-title {
-  text-align: center;
-  padding: 30px;
-  font-size: 2rem;
+/* App */
+
+.app {
+  min-height: 100vh;
 }
+
+/* Topbar */
+
+.topbar {
+  height: 90px;
+  padding: 20px 40px;
+
+  display: flex;
+  align-items: center;
+
+  background: rgba(15, 23, 42, 0.8);
+
+  backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topbar h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.topbar p {
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+/* Dashboard */
 
 .dashboard {
   position: relative;
   width: 100%;
-  height: 85vh;
+  height: calc(100vh - 90px);
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(56, 189, 248, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(168, 85, 247, 0.12),
+      transparent 30%
+    );
+
   padding: 20px;
 }
 
@@ -29,37 +78,56 @@ body {
 .widget {
   width: 100%;
   height: 100%;
-  background: #1e293b;
-  border: 1px solid #334155;
-  border-radius: 14px;
-  overflow: hidden;
 
   display: flex;
   flex-direction: column;
 
-  box-shadow:
-    0 10px 25px rgba(0, 0, 0, 0.25);
+  background: rgba(30, 41, 59, 0.75);
 
-  transition: all 0.2s ease;
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  transition: all 0.25s ease;
 }
 
 .widget:hover {
-  border-color: #38bdf8;
+  transform: translateY(-4px);
+
+  border-color: rgba(56, 189, 248, 0.4);
+
+  box-shadow:
+    0 15px 30px rgba(0, 0, 0, 0.35);
 }
 
+/* Header */
+
 .widget-header {
-  padding: 14px 18px;
-  border-bottom: 1px solid #334155;
+  height: 55px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  font-weight: 600;
-  background: #162033;
+  padding: 0 18px;
+
+  background: rgba(15, 23, 42, 0.75);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 
   cursor: move;
 }
+
+.widget-header span {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Content */
 
 .widget-content {
   flex: 1;
@@ -72,13 +140,18 @@ body {
   font-size: 14px;
 }
 
-/* Better resize handles */
+/* Responsive */
 
-.react-resizable-handle,
-.react-resizable-handle-se,
-.react-resizable-handle-sw,
-.react-resizable-handle-ne,
-.react-resizable-handle-nw {
-  width: 12px;
-  height: 12px;
+@media (max-width: 768px) {
+  .topbar {
+    padding: 15px 20px;
+  }
+
+  .topbar h1 {
+    font-size: 20px;
+  }
+
+  .topbar p {
+    font-size: 13px;
+  }
 }
