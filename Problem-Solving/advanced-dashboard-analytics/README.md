@@ -1,16 +1,34 @@
-# React + Vite
+# Advanced Dashboard Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern analytics dashboard built with React that visualizes business metrics and trends through interactive charts and responsive UI components.
 
-Currently, two official plugins are available:
+## Problems Solved
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Visualizing business performance data
+- Monitoring revenue trends over time
+- Tracking user growth metrics
+- Filtering analytics data by date range
+- Presenting data in an easy-to-understand dashboard
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Revenue Analytics Chart
+- Statistics Summary Cards
+- Date Range Filter
+- Responsive Dashboard Layout
+- Interactive Data Visualization
+- Clean Component-Based Architecture
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ScreenShot
+
+<img width="1919" height="924" alt="image" src="https://github.com/user-attachments/assets/ab53b613-0f2a-4d96-a073-ede10602320d" />
+
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- Recharts
+- JavaScript (ES6+)
