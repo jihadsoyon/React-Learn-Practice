@@ -1,27 +1,53 @@
 import { Rnd } from "react-rnd";
 
-const Widget = ({ widget }) => {
+const Widget = ({
+  widget,
+  widgets,
+  setWidgets,
+}) => {
+  const updateWidget = (id, updates) => {
+    const updatedWidgets = widgets.map((item) =>
+      item.id === id
+        ? { ...item, ...updates }
+        : item
+    );
+
+    setWidgets(updatedWidgets);
+  };
+
   return (
     <Rnd
-      default={{
+      size={{
+        width: widget.width || 250,
+        height: widget.height || 150,
+      }}
+      position={{
         x: widget.x,
         y: widget.y,
-        width: 250,
-        height: 150,
       }}
       bounds="parent"
-      enableResizing={{
-        top: true,
-        right: true,
-        bottom: true,
-        left: true,
-        topRight: true,
-        bottomRight: true,
-        bottomLeft: true,
-        topLeft: true,
-      }}
       minWidth={200}
       minHeight={120}
+      onDragStop={(e, d) => {
+        updateWidget(widget.id, {
+          x: d.x,
+          y: d.y,
+        });
+      }}
+      onResizeStop={(
+        e,
+        direction,
+        ref,
+        delta,
+        position
+      ) => {
+        updateWidget(widget.id, {
+          width: parseInt(ref.style.width),
+          height: parseInt(ref.style.height),
+          x: position.x,
+          y: position.y,
+        });
+      }}
     >
       <div className="widget">
         <div className="widget-header">
