@@ -291,6 +291,19 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 23. Drag & Resize Components Builder
+- EEXTREME frontend skill
+
+**Requirements:**
+- Drag widgets
+- Resize cards
+- Save layout
+
+**Challenge::**
+- DOM calculations
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
