@@ -1,16 +1,48 @@
-# React + Vite
+# Optimized Search System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+A production-inspired search system built with React and JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project focuses on improving search performance and user experience using debouncing, optimized filtering, search history, and text highlighting.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Problems Solved
 
-## Expanding the ESLint configuration
+- Prevents excessive filtering on every keystroke
+- Reduces unnecessary re-renders using memoization
+- Improves user experience with debounced search
+- Provides quick access to previous searches
+- Makes matched search terms visually identifiable
+- Stores search history using localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Debounced Search
+- Search History
+- Recent Searches
+- Highlight Matched Text
+- Efficient Filtering with useMemo
+- Local Storage Persistence
+- Responsive UI
+- Reusable Components
+- Custom Debounce Hook
+
+---
+
+## Screenshots
+
+<img width="1919" height="722" alt="image" src="https://github.com/user-attachments/assets/dd7d81d5-36a3-4e86-ace9-48f56a939b03" />
+
+<img width="1913" height="680" alt="image" src="https://github.com/user-attachments/assets/ff9522c7-04c7-4337-8809-fdbb33c055c5" />
+
+
+
+## Tech Stack
+
+- React
+- JavaScript
+- CSS
