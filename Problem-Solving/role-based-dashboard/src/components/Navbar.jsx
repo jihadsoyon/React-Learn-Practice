@@ -1,24 +1,36 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 function Navbar() {
   const { user, logout } = useAuth();
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logout();
+    navigate("/");
+  };
 
   return (
     <nav className="navbar">
-      <Link to="/dashboard">
-        Dashboard
-      </Link>
+      <div className="logo">
+        RB Dashboard
+      </div>
 
-      {user?.role === "admin" && (
-        <Link to="/admin">
-          Admin Panel
+      <div className="nav-links">
+        <Link to="/dashboard">
+          Dashboard
         </Link>
-      )}
 
-      <button onClick={logout}>
-        Logout
-      </button>
+        {user?.role === "admin" && (
+          <Link to="/admin">
+            Admin Panel
+          </Link>
+        )}
+
+        <button onClick={handleLogout}>
+          Logout
+        </button>
+      </div>
     </nav>
   );
 }
