@@ -303,6 +303,32 @@ Each project focuses on a specific concept that is commonly used in modern web a
 - DOM calculations
   
 ---
+### 24. Optimized Search System
+- Real-world frontend architecture
+
+**Requirements:**
+- Debounced search
+- Search history
+- Highlight matched text
+- Recent searches
+
+**Challenge::**
+- Efficient filtering
+  
+---
+
+### 25. Role-Based Protected Dashboard
+- Professional app architecture
+
+**Requirements:**
+- Admin/User roles
+- Protected routes
+- Conditional rendering
+
+**Challenge::**
+- Authentication flow
+  
+---
 
 ## 🧠 What I Learned
 
