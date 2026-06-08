@@ -1,16 +1,65 @@
-# React + Vite
+# Headless UI Component System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable and scalable React component system built using modern component architecture principles.
 
-Currently, two official plugins are available:
+## Problems Solved
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates how to build reusable UI components without tightly coupling business logic and presentation.
 
-## React Compiler
+It solves:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Repetitive UI code
+- Difficult component reuse
+- Poor component scalability
+- Complex state sharing between UI elements
+- Inconsistent user interfaces
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### Accordion
+
+- Expand / Collapse items
+- Single active item
+- Reusable compound component structure
+
+### Dropdown
+
+- Open / Close menu
+- Outside click detection
+- Reusable menu system
+
+### Tabs
+
+- Dynamic tab switching
+- Reusable tab panels
+- State-driven rendering
+
+### Tooltip
+
+- Hover interaction
+- Position handling
+- Lightweight implementation
+
+### Architecture Features
+
+- Compound Components
+- Component Composition
+- Reusable APIs
+- Clean Folder Structure
+- Separation of Logic & UI
+
+---
+
+### Screenshot
+
+<img width="1917" height="804" alt="image" src="https://github.com/user-attachments/assets/b2d625f2-0a88-44bd-9183-b81f1fb02f6d" />
+
+
+## Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Vite
+- CSS3
