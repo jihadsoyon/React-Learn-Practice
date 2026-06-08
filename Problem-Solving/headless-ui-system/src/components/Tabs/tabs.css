@@ -1,0 +1,19 @@
+.tab-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.tab {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.active-tab {
+  background: #2563eb;
+  color: white;
+}
+
+.tab-panel {
+  margin-top: 20px;
+}
