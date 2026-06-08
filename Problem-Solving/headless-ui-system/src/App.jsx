@@ -23,126 +23,102 @@ import "./components/Tooltip/tooltip.css";
 
 function App() {
   return (
-    <div
-      style={{
-        padding: "40px",
-        maxWidth: "1000px",
-        margin: "0 auto",
-      }}
-    >
-      <h1
-        style={{
-          textAlign: "center",
-          marginBottom: "50px",
-        }}
-      >
-        Headless UI Component System
-      </h1>
+    <div className="app-container">
+      <header className="hero">
+        <h1>Headless UI Component System</h1>
 
-      {/* Accordion */}
+        <p>
+          Reusable React Components built using
+          Compound Component Architecture
+        </p>
+      </header>
 
-      <section
-        style={{
-          marginBottom: "60px",
-        }}
-      >
-        <h2>Accordion</h2>
+      <div className="showcase-grid">
+        {/* Accordion */}
 
-        <Accordion>
-          <AccordionItem
-            index={0}
-            title="What is React?"
-          >
-            React is a JavaScript library for building user interfaces.
-          </AccordionItem>
+        <div className="showcase-card">
+          <h2>Accordion</h2>
 
-          <AccordionItem
-            index={1}
-            title="What is a Component?"
-          >
-            Components are reusable pieces of UI.
-          </AccordionItem>
+          <Accordion>
+            <AccordionItem
+              index={0}
+              title="What is React?"
+            >
+              React is a JavaScript library.
+            </AccordionItem>
 
-          <AccordionItem
-            index={2}
-            title="Why use React?"
-          >
-            React helps build scalable applications.
-          </AccordionItem>
-        </Accordion>
-      </section>
+            <AccordionItem
+              index={1}
+              title="What is Vite?"
+            >
+              Vite is a fast build tool.
+            </AccordionItem>
 
-      {/* Dropdown */}
+            <AccordionItem
+              index={2}
+              title="What is Headless UI?"
+            >
+              Reusable component architecture.
+            </AccordionItem>
+          </Accordion>
+        </div>
 
-      <section
-        style={{
-          marginBottom: "60px",
-        }}
-      >
-        <h2>Dropdown</h2>
+        {/* Dropdown */}
 
-        <Dropdown>
-          <DropdownButton>
-            Open Menu
-          </DropdownButton>
+        <div className="showcase-card">
+          <h2>Dropdown</h2>
 
-          <DropdownMenu>
-            <p>Profile</p>
-            <p>Settings</p>
-            <p>Logout</p>
-          </DropdownMenu>
-        </Dropdown>
-      </section>
+          <Dropdown>
+            <DropdownButton>
+              Open Menu
+            </DropdownButton>
 
-      {/* Tabs */}
+            <DropdownMenu>
+              <p>Dashboard</p>
+              <p>Profile</p>
+              <p>Logout</p>
+            </DropdownMenu>
+          </Dropdown>
+        </div>
 
-      <section
-        style={{
-          marginBottom: "60px",
-        }}
-      >
-        <h2>Tabs</h2>
+        {/* Tabs */}
 
-        <Tabs>
-          <TabList>
-            <Tab index={0}>
-              React
-            </Tab>
+        <div className="showcase-card">
+          <h2>Tabs</h2>
 
-            <Tab index={1}>
-              Next.js
-            </Tab>
+          <Tabs>
+            <TabList>
+              <Tab index={0}>React</Tab>
+              <Tab index={1}>Next.js</Tab>
+              <Tab index={2}>TypeScript</Tab>
+            </TabList>
 
-            <Tab index={2}>
-              TypeScript
-            </Tab>
-          </TabList>
+            <TabPanel index={0}>
+              React Content
+            </TabPanel>
 
-          <TabPanel index={0}>
-            React Content
-          </TabPanel>
+            <TabPanel index={1}>
+              Next.js Content
+            </TabPanel>
 
-          <TabPanel index={1}>
-            Next.js Content
-          </TabPanel>
+            <TabPanel index={2}>
+              TypeScript Content
+            </TabPanel>
+          </Tabs>
+        </div>
 
-          <TabPanel index={2}>
-            TypeScript Content
-          </TabPanel>
-        </Tabs>
-      </section>
+        {/* Tooltip */}
 
-      {/* Tooltip */}
+        <div className="showcase-card">
+          <h2>Tooltip</h2>
 
-      <section>
-        <h2>Tooltip</h2>
-
-        <Tooltip text="This is a tooltip">
-          <button>
-            Hover Me
-          </button>
-        </Tooltip>
-      </section>
+          <Tooltip text="Reusable Tooltip Component">
+            <button>
+              Hover Me
+            </button>
+          </Tooltip>
+        </div>
+      </div>
     </div>
   );
 }
