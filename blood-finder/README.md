@@ -128,7 +128,8 @@ src
 ## Clone the repository
 
 ```bash
-git clone https://github.com/your-username/bloodfinder.git
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
+
 ```
 
 ---
@@ -136,7 +137,7 @@ git clone https://github.com/your-username/bloodfinder.git
 ## Navigate to the project folder
 
 ```bash
-cd bloodfinder
+cd React-Learn-Practice/bloodfinder
 ```
 
 ---
