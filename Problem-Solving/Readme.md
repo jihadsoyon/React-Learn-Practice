@@ -330,6 +330,20 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 26. Headless UI Component System
+- Senior-level React pattern
+
+**Requirements:**
+- Accordion
+- Dropdown
+- Tabs
+- Tooltip
+
+**Challenge::**
+- Compound components
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:

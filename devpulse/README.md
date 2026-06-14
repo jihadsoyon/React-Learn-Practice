@@ -80,8 +80,8 @@ It transforms any GitHub username into a visually stunning analytics dashboard â
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/devpulse.git
-cd devpulse
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
+cd React-Learn-Practice/devpulse
 
 # Install dependencies
 npm install

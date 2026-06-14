@@ -49,9 +49,9 @@ src/
 Clone the repository and install dependencies:
 
 ```bash id="sflvg9"
-git clone https://github.com/your-username/multi-step-form.git
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
 
-cd multi-step-form
+cd React-Learn-Practice/Problem-Solving/multi-step-form
 
 npm install
 

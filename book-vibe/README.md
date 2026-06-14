@@ -79,7 +79,7 @@ User can sort the read list:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/book-vibes.git
-cd book-vibes
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
+cd React-Learn-Practice/book-vibes
 npm install
 npm run dev
