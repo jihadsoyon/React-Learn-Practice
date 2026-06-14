@@ -51,7 +51,7 @@ Clone the repository and install dependencies:
 ```bash id="sflvg9"
 git clone https://github.com/jihadsoyon/React-Learn-Practice.git
 
-cd React-Learn-Practice/multi-step-form
+cd React-Learn-Practice/Problem-Solving/multi-step-form
 
 npm install
 
