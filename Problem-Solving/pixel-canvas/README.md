@@ -1,16 +1,45 @@
-# React + Vite
+# 🎨 PixelBoard — Undo/Redo Drawing Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 What Problems Does This Project Solve?
 
-Currently, two official plugins are available:
+| Problem | Solution |
+|---|---|
+| Complex state history management | Custom Undo/Redo stack using two arrays (past/future) |
+| Persistent drawings across page reloads | LocalStorage integration with safe error handling |
+| Continuous drawing while dragging | Mouse + Touch event tracking with last-cell deduplication |
+| State explosion on redo after new action | Future stack clears automatically on new paint action |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🖱️ Click & Drag Painting** — Paint pixels by clicking or holding and dragging across the grid
+- **↩️ Undo** — Step back through full paint history, one action at a time
+- **↪️ Redo** — Re-apply undone actions; stack clears on new paint
+- **🗑️ Clear Board** — Wipe the canvas (also undoable)
+- **🎨 Color Palette** — 12 preset colors + full custom color picker
+- **💾 LocalStorage Save** — Your drawing survives page refresh automatically
+- **📱 Touch Support** — Works on mobile/tablet via touch events
+- **📊 Stack Visualizer** — Live Undo/Redo count badges in the sidebar
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|---|---|
+| Framework | React 18 (Vite) |
+| State Management | Custom Hook (`useDrawingBoard`) — no Redux needed |
+| Icons | Lucide React |
+| Persistence | Browser LocalStorage |
+| Styling | Pure CSS (CSS Variables, Grid, Flexbox) |
+| Build Tool | Vite |
+
+
+
+## 📸 Screenshot
+
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/0b813a80-8cec-4d55-a519-4262dd0e8149" />
+
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/fc4055f1-e6b4-4dcf-a666-cff6fbe614a7" />
+
