@@ -347,7 +347,7 @@ Each project focuses on a specific concept that is commonly used in modern web a
 ### 27. Undo / Redo Drawing Board
 
 **Requirements:**
-- User grid/canvas এ click করে color fill করতে পারবে
+- User can click on grid/canvas to fill with color
 - Undo
 - Redo
 - Clear Board
@@ -356,7 +356,19 @@ Each project focuses on a specific concept that is commonly used in modern web a
 
 **Challenge::**
 - State history maintain
-- Undo/Redo stack implement 
+- Undo/Redo stack implement
+- 
+### 28. Visual JSON Editor
+
+**Requirements:**
+- Key-value pair add/remove
+- Nested object support
+- Live JSON preview
+- Copy JSON button
+- Invalid input handling
+
+**Challenge::**
+- Dynamic nested state 
   
 ---
 
