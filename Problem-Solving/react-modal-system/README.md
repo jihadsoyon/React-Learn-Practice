@@ -70,10 +70,10 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/react-modal-system.git
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
 
 # Navigate to project
-cd react-modal-system
+cd React-Learn-Practice/Problem-Solving/react-modal-system
 
 # Install dependencies
 npm install

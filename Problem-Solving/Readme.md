@@ -344,6 +344,34 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 27. Undo / Redo Drawing Board
+
+**Requirements:**
+- User can click on grid/canvas to fill with color
+- Undo
+- Redo
+- Clear Board
+- Brush color change
+- LocalStorage এ save
+
+**Challenge::**
+- State history maintain
+- Undo/Redo stack implement
+- 
+### 28. Visual JSON Editor
+
+**Requirements:**
+- Key-value pair add/remove
+- Nested object support
+- Live JSON preview
+- Copy JSON button
+- Invalid input handling
+
+**Challenge::**
+- Dynamic nested state 
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
