@@ -372,6 +372,19 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 29. Keyboard Shortcut Manager
+
+**Requirements:**
+- Custom shortcut create (Ctrl + K)
+- Shortcut edit/delete
+- Trigger action
+- LocalStorage save
+
+**Challenge::**
+- Keyboard event handling
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
