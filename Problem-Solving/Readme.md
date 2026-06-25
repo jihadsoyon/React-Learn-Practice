@@ -385,6 +385,21 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 30. Habit Tracker with Streak System
+
+**Requirements:**
+- Daily habit add
+- Mark complete
+- Current streak
+- Best streak
+- Calendar view
+- LocalStorage
+
+**Challenge::**
+- Date calculations
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
