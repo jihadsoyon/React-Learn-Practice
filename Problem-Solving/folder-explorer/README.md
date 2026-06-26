@@ -62,6 +62,20 @@ npm run dev
 
 ---
 
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/jihadsoyon/React-Learn-Practice.git
+cd React-Learn-Practice/Problem-Solving/folder-explorer
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
+npm run dev
+```
+
 ## 🧠 Recruiter Highlights
 
 - **Recursive components** — `TreeNode` renders itself: the core CS concept
