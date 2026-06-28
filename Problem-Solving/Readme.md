@@ -400,7 +400,7 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
-### 30. Folder Explorer (VS Code Style)
+### 31. Folder Explorer (VS Code Style)
 
 **Requirements:**
 - Nested folders/files
