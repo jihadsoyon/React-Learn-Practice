@@ -1,122 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { Command } from 'lucide-react';
+import { useCommandPalette } from './hooks/useCommandPalette';
+import CommandPalette from './components/CommandPalette';
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const { isOpen, open, close, inputRef } = useCommandPalette();
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <div className="min-h-screen flex flex-col items-center justify-center gap-8 select-none">
+      {/* Hero */}
+      <div className="text-center space-y-4">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/20 bg-indigo-500/10 text-indigo-400 text-xs font-medium mb-2">
+          <Command size={11} /> VS Code / Notion Style
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+          <span className="text-slate-100">Command</span>{' '}
+          <span className="text-indigo-400">Palette</span>
+        </h1>
+        <p className="text-slate-500 text-sm max-w-xs">
+          Blazing-fast command launcher with fuzzy search, keyboard nav & recent history.
+        </p>
+      </div>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+      {/* Trigger button */}
+      <button
+        onClick={open}
+        className="group flex items-center gap-3 px-5 py-3 rounded-xl bg-white/[0.04] border border-white/[0.08] hover:border-indigo-500/30 hover:bg-indigo-500/5 transition-all duration-200 text-sm text-slate-400 hover:text-slate-300"
+        aria-label="Open command palette"
+      >
+        <Search size={15} />
+        <span>Search commands…</span>
+        <div className="flex items-center gap-1 ml-2">
+          <kbd className="kbd-key">Ctrl</kbd>
+          <kbd className="kbd-key">K</kbd>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      </button>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+      {/* Feature pills */}
+      <div className="flex flex-wrap justify-center gap-2 max-w-sm">
+        {['Fuzzy Search', 'Keyboard Nav', 'Recent History', 'Local Storage', 'ARIA Accessible'].map(f => (
+          <span key={f} className="text-xs px-3 py-1 rounded-full bg-slate-800/60 border border-slate-700/50 text-slate-500">
+            {f}
+          </span>
+        ))}
+      </div>
+
+      <CommandPalette isOpen={isOpen} onClose={close} inputRef={inputRef} />
+    </div>
+  );
 }
-
-export default App
