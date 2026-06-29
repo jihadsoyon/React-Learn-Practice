@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #0a0a0f;
+    color: #e2e8f0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .palette-glass {
+    background: rgba(15, 15, 25, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(99, 102, 241, 0.15);
+    box-shadow:
+      0 0 0 1px rgba(99, 102, 241, 0.08),
+      0 25px 60px rgba(0, 0, 0, 0.6),
+      0 0 80px rgba(99, 102, 241, 0.06);
+  }
+
+  .cmd-item-hover {
+    transition: background 0.1s ease, border-color 0.1s ease;
+  }
+
+  .cmd-item-active {
+    background: rgba(99, 102, 241, 0.12);
+    border-left: 2px solid #6366f1;
+  }
+
+  .cmd-item-inactive {
+    border-left: 2px solid transparent;
+  }
+
+  .search-input {
+    background: transparent;
+    outline: none;
+    caret-color: #6366f1;
+  }
+
+  .badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .kbd-key {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-family: monospace;
+    padding: 1px 5px;
+    color: #94a3b8;
+  }
+
+  .overlay-bg {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+  }
+
+  .animate-palette-in {
+    animation: paletteIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  @keyframes paletteIn {
+    from {
+      opacity: 0;
+      transform: scale(0.96) translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+}
