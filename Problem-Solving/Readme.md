@@ -400,6 +400,20 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 31. Folder Explorer (VS Code Style)
+
+**Requirements:**
+- Nested folders/files
+- Expand/Collapse
+- Add/Delete node
+- Rename
+- Recursive rendering
+
+**Challenge::**
+- Recursive components
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
