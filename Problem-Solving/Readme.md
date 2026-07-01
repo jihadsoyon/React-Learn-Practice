@@ -414,6 +414,20 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 32. Command Palette (VS Code / Notion Style)
+
+**Requirements:**
+- Ctrl + K open
+- Search commands
+- Keyboard navigation
+- Enter execute
+- Recent commands
+
+**Challenge::**
+- Keyboard accessibility + filtering
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
