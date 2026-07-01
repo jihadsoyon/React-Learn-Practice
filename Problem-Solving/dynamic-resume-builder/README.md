@@ -35,6 +35,17 @@ https://resume-builder0.netlify.app/
 
 ---
 
+
+## Screenshots
+
+<img width="1909" height="1032" alt="image" src="https://github.com/user-attachments/assets/bcba821e-b099-45ea-9a99-abcbcde7c5b8" />
+<img width="1889" height="1029" alt="image" src="https://github.com/user-attachments/assets/e91f643f-de6b-4207-811d-8424be59c65b" />
+<img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/7bb6df85-9dfe-4f66-8d93-246548d7a19e" />
+<img width="1919" height="1034" alt="image" src="https://github.com/user-attachments/assets/5864553b-c4da-415f-8a1b-ac8839173baf" />
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/e8209707-9536-42d2-9ce4-166d6bbbb1b2" />
+
+
+
 ## Tech Stack
 
 | Tech | Version | Role |
