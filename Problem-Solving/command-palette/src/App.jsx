@@ -1,4 +1,4 @@
-import { Command } from 'lucide-react';
+import { Command, Search } from 'lucide-react';
 import { useCommandPalette } from './hooks/useCommandPalette';
 import CommandPalette from './components/CommandPalette';
 
