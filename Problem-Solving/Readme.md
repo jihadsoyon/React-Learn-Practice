@@ -428,6 +428,21 @@ Each project focuses on a specific concept that is commonly used in modern web a
   
 ---
 
+### 33. Dynamic Resume Builder
+**Requirements:**
+- Education
+- Experience
+- Skills
+- Projects  
+- Live preview
+- Reorder sections
+- LocalStorage
+
+**Challenge::**
+- Complex form state
+  
+---
+
 ## 🧠 What I Learned
 
 Through these projects, I have strengthened my understanding of:
