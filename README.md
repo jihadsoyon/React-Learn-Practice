@@ -46,6 +46,10 @@ Here are some of my deployed React projects:
 
 🔗 https://dev0pulse.netlify.app/
 
+### 🔹 Dynamic Resume Builder
+
+🔗 https://resume-builder0.netlify.app/
+
 ---
 
 ## 📌 About This Repository
