@@ -12,7 +12,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 ### 1. Debounced Search
 - Implements search optimization using debounce technique  
 - Prevents unnecessary API calls  
-- Improves performance for fast typing  
+- Improves performance for fast typing
+
+  repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/debounced-search
 
 **Concepts Used:**
 - useEffect  
