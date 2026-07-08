@@ -38,7 +38,9 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 ### 3. Dynamic Form Builder
 - Create forms dynamically based on configuration  
-- Supports multiple input types  
+- Supports multiple input types
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/dynamic-form-builder
 
 **Concepts Used:**
 - Controlled components  
