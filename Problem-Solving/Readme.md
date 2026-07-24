@@ -56,7 +56,9 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Concepts Used:**
 - Intersection Observer API  
 - Pagination  
-- API handling  
+- API handling
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/infinity-scroll-app
 
 ---
 
