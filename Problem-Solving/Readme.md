@@ -82,7 +82,9 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Concepts Used:**
 - useState  
 - Event handling  
-- Logic building  
+- Logic building
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/smart-counter
 
 ---
 
