@@ -179,12 +179,6 @@ This project is deployed on:
 
 ---
 
-# 👨‍💻 Developer
-
-Built with ❤️ by **Jihad Soyon**
-
----
-
 # 📜 License
 
 This project is licensed under the MIT License.
