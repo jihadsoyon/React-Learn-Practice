@@ -130,6 +130,7 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Global theme management
 
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/theme-switcher
 ---
 
 ### 10. Real-Time Character Counter
