@@ -145,6 +145,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Controlled input optimization
 
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/real-time-character-counter
+
 ---
 
 ### 11. Pagination System
