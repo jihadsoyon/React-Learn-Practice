@@ -174,6 +174,8 @@ repo:  https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solv
 **Challenge::**
 - FileReader API
 
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/image-upload-preview
+
 ---
 
 ### 13. Custom Toast Notification System
