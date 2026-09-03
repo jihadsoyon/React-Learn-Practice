@@ -166,19 +166,6 @@ This project is deployed on:
 
 ---
 
-# 📈 Future Improvements
-
-- Authentication system
-- Firebase / Backend integration
-- Real-time notifications
-- Blood request history
-- Donor profile dashboard
-- Location-based donor search
-- Admin panel
-- Dark/Light mode toggle
-
----
-
 # 📜 License
 
 This project is licensed under the MIT License.
