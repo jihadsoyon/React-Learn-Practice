@@ -186,4 +186,4 @@ This repository is part of my React learning journey where I practice core conce
 # 👨‍💻 Author
 
 ### Jihad Soyon
-Aspiring MERN Stack Developer 🚀
+MERN Stack Developer 🚀

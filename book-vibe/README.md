@@ -2,7 +2,7 @@
 
 🔗 Live Site: https://boook-vibes.netlify.app/
 
-Book Vibes is a modern React-based web application that helps users discover books, manage their reading list, and organize books based on preferences like rating and total pages.
+Book Vibes is a modern React-based web application that helps users discover books, manage their reading list, & organize books based on preferences like rating and total pages.
 
 ---
 

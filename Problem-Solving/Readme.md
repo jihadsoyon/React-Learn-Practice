@@ -12,7 +12,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 ### 1. Debounced Search
 - Implements search optimization using debounce technique  
 - Prevents unnecessary API calls  
-- Improves performance for fast typing  
+- Improves performance for fast typing
+
+  repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/debounced-search
 
 **Concepts Used:**
 - useEffect  
@@ -23,7 +25,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 
 ### 2. Drag & Drop Trello
 - Trello-like drag-and-drop task management system  
-- Move items between columns  
+- Move items between columns
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/drag-drop-trello
 
 **Concepts Used:**
 - Drag & Drop API / libraries  
@@ -34,7 +38,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 
 ### 3. Dynamic Form Builder
 - Create forms dynamically based on configuration  
-- Supports multiple input types  
+- Supports multiple input types
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/dynamic-form-builder
 
 **Concepts Used:**
 - Controlled components  
@@ -50,7 +56,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 **Concepts Used:**
 - Intersection Observer API  
 - Pagination  
-- API handling  
+- API handling
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/infinity-scroll-app
 
 ---
 
@@ -61,7 +69,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 **Concepts Used:**
 - Portals  
 - Context API  
-- Component architecture  
+- Component architecture
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/react-modal-system
 
 ---
 
@@ -72,7 +82,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 **Concepts Used:**
 - useState  
 - Event handling  
-- Logic building  
+- Logic building
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/smart-counter
 
 ---
 
@@ -83,7 +95,9 @@ Each project focuses on a specific concept that is commonly used in modern web a
 **Concepts Used:**
 - State management  
 - List rendering  
-- Local storage (optional)  
+- Local storage (optional)
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/todo-app
 
 ---
 
@@ -101,6 +115,8 @@ Each project focuses on a specific concept that is commonly used in modern web a
 - Multi-step state management
 - Form persistence
 
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/multi-step-form
+
 ---
 
 ### 9. Theme Switcher (Dark / Light Mode)
@@ -113,6 +129,8 @@ Each project focuses on a specific concept that is commonly used in modern web a
 
 **Challenge::**
 - Global theme management
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/theme-switcher
 
 ---
 
@@ -127,6 +145,8 @@ Each project focuses on a specific concept that is commonly used in modern web a
 **Challenge::**
 - Controlled input optimization
 
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/real-time-character-counter
+
 ---
 
 ### 11. Pagination System
@@ -140,6 +160,8 @@ Each project focuses on a specific concept that is commonly used in modern web a
 **Challenge::**
 - Async state handling
 
+repo:  https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/react-pagination-system
+
 ---
 
 ### 12. Image Upload Preview
@@ -152,6 +174,8 @@ Each project focuses on a specific concept that is commonly used in modern web a
 
 **Challenge::**
 - FileReader API
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/image-upload-preview
 
 ---
 
@@ -425,6 +449,21 @@ Each project focuses on a specific concept that is commonly used in modern web a
 
 **Challenge::**
 - Keyboard accessibility + filtering
+  
+---
+
+### 33. Dynamic Resume Builder
+**Requirements:**
+- Education
+- Experience
+- Skills
+- Projects  
+- Live preview
+- Reorder sections
+- LocalStorage
+
+**Challenge::**
+- Complex form state
   
 ---
 
