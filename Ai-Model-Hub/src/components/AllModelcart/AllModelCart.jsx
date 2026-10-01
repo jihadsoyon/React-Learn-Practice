@@ -7,6 +7,7 @@ const AllModelCart = ({modelPromise}) => {
     // console.log(models); 
 
     const [selectedType, setSelectedType] = useState("models")
+    const [selectedCart, setSelectCart] = useState([])
 
     return (
         <div>
@@ -17,11 +18,11 @@ const AllModelCart = ({modelPromise}) => {
                 </button>
 
                 <button onClick={()=> setSelectedType('cart')} className={`${selectedType === 'cart' ? "bg-[#ff3b6b] hover:bg-[#e02e5a] text-white font-medium px-35 py-3 rounded-2xl transition-all duration-300" : "text-black bg-white font-medium px-35 py-3 rounded-2xl transition-all duration-300"} `}>
-                    Cart(0)
+                    Cart({selectedCart.length})
                 </button>
             </div>
 
-            {selectedType === "models" ? <Models models={models}></Models> : <Cart></Cart>}
+            {selectedType === "models" ? <Models models={models} selectedCart={selectedCart} setSelectCart={setSelectCart}></Models> : <Cart selectedCart={selectedCart} setSelectCart={setSelectCart}></Cart>}
         </div>
     );
 };

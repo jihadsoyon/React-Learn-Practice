@@ -6,8 +6,22 @@ const badgeColor = {
     'most wanted': 'bg-orange-500'
 }
 
-const Modalcard = ({model}) => {
+const Modalcard = ({ model, selectedCart, setSelectCart }) => {
+
     const [isSubscribed, setIsSubscribed] = useState(false);
+
+    const handleSubsCribedBTN = () => {
+
+        const alreadyInCart = selectedCart.some(cartItem=>  cartItem.id === model.id)
+        if(alreadyInCart){
+            alert(`${model.title} is already in your cart`)
+            return
+        } 
+        setSelectCart([...selectedCart, model])
+        setIsSubscribed(true);
+        alert(`${model.title} has been added to the cart!`)
+    }
+
     return (
         <div>
             <div>
@@ -29,7 +43,7 @@ const Modalcard = ({model}) => {
                         <h2 className="card-title">{model.title}</h2>
                         <p>{model.description}</p>
                         <p className='text-xl font-bold'>Price: ${model.price === 0 ? "FREE" : model.price}</p>
-                        <button className="btn bg-red-600 text-white rounded-2xl" onClick={() => setIsSubscribed(true)}>{isSubscribed ? "Subscribed" : "Subscribe now"}</button>
+                        <button className="btn bg-red-600 text-white rounded-2xl" onClick={() => handleSubsCribedBTN()}>{isSubscribed ? "Subscribed" : "Subscribe now"}</button>
 
                     </div>
                 </div>
