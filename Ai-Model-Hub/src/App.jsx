@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner'
 import Footer from './components/Footer/Footer'
 import NavBar from './components/Navbar/Navbar'
 import AllModelCart from './components/AllModelcart/AllModelCart'
+import { ToastContainer } from 'react-toastify';
 
 
 const fetchModel = async () => {
@@ -22,6 +23,7 @@ function App() {
         <AllModelCart modelPromise={modelPromise}></AllModelCart>
       </Suspense>
       <Footer></Footer>
+      <ToastContainer />
     </>
   )
 }

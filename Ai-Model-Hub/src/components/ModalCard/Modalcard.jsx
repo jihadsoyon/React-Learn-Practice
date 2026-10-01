@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const badgeColor = {
     popular: 'bg-red-600',
@@ -14,12 +15,12 @@ const Modalcard = ({ model, selectedCart, setSelectCart }) => {
 
         const alreadyInCart = selectedCart.some(cartItem=>  cartItem.id === model.id)
         if(alreadyInCart){
-            alert(`${model.title} is already in your cart`)
+            toast.error(`${model.title} is already in your cart`)
             return
         } 
         setSelectCart([...selectedCart, model])
         setIsSubscribed(true);
-        alert(`${model.title} has been added to the cart!`)
+        toast.success(`${model.title} has been added to the cart!`)
     }
 
     return (
