@@ -1,16 +1,49 @@
-# React + Vite
+# 🤖 AI Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**One Subscription. All the AIs You Need.**
 
-Currently, two official plugins are available:
+AI Hub is a subscription-style web app where users can browse popular frontier AI models, add the ones they want to a cart, and go through a mock checkout flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** [https://ai-hub0.netlify.app](https://ai-hub0.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Landing hero section** with a clear call to action and highlights: 50+ Frontier Models, No Usage Limits, Cancel Anytime
+- **AI model cards** with logo, description, monthly price, and a badge (`popular`, `favourite`, `mostwanted`)
+- **Models available:** ChatGPT, Grok, DeepSeek, Gemini, Claude, Kimi, Perplexity, Mistral, Meta AI
+- **Subscribe now** button adds a model to the cart
+- **Toast notifications** when a model is added to the cart and when payment succeeds
+- **Cart tab** with live item count (`Cart(3)`), remove button for each item, and an auto-calculated total
+- **Proceed to Checkout** shows a "Payment Successful" message and clears the cart
+- **Empty cart state** with a friendly placeholder
+- **Responsive navbar and footer** (Product, Company, Legal links)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- React Toastify
+- Netlify (deployment)
+
+## 🧠 What I Practiced
+
+- Managing state with React hooks (`useState`)
+- Passing data and handlers between components with props
+- Conditional rendering (Models tab vs Cart tab, empty cart state)
+- Calculating derived values (cart total and item count)
+- Showing user feedback with toast notifications
+
+## 🔮 Future Improvements
+
+- Real payment integration
+- User authentication
+- Persist the cart with `localStorage`
+- Working About, Services, and Contact pages
+
+## 👤 Author
+
+**Jihad**
+GitHub: [@jihadsoyon](https://github.com/jihadsoyon)
