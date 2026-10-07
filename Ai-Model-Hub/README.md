@@ -36,13 +36,6 @@ AI Hub is a subscription-style web app where users can browse popular frontier A
 - Calculating derived values (cart total and item count)
 - Showing user feedback with toast notifications
 
-## 🔮 Future Improvements
-
-- Real payment integration
-- User authentication
-- Persist the cart with `localStorage`
-- Working About, Services, and Contact pages
-
 ## 👤 Author
 
 **Jihad**
