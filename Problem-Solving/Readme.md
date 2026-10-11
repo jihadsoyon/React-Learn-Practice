@@ -190,6 +190,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Global notification management
 
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/react-toast-system
+
 ---
 
 ### 14. Kanban Search & Filter
@@ -202,6 +204,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Derived state optimization
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/kanban-search-filter
   
 ---
 
@@ -216,6 +220,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Form validation architecture
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/auth-ui-flow
   
 ---
 

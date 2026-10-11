@@ -50,6 +50,10 @@ Here are some of my deployed React projects:
 
 🔗 https://resume-builder0.netlify.app/
 
+### 🔹 Ai Model Hub
+
+🔗 https://ai-hub0.netlify.app/
+
 ---
 
 ## 📌 About This Repository
