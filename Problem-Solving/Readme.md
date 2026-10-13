@@ -235,7 +235,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Array manipulation + optimization
-  
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/data-table-app
 ---
 
 ### 17. Weather Dashboard App
