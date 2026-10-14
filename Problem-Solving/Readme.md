@@ -236,7 +236,7 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Array manipulation + optimization
 
-repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/data-table-app
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/data-table-app**
 ---
 
 ### 17. Weather Dashboard App
@@ -250,6 +250,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Async API handling
 - Error/loading states
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/weather-dashboard
   
 ---
 
