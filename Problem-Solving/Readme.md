@@ -265,6 +265,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Scalable state architecture
+
+ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/mini-redux
   
 ---
 
