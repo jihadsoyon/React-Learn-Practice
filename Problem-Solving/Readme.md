@@ -281,6 +281,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Performance optimization
   
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/virtualized-large-list
+
 ---
 
 ### 20. Reusable Custom Hooks Library
