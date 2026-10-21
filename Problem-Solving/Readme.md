@@ -330,6 +330,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Data visualization
   
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/advanced-dashboard-analytics
+  
 ---
 
 ### 23. Drag & Resize Components Builder
