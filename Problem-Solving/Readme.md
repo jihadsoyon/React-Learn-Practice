@@ -345,6 +345,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - DOM calculations
   
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/drag-resize-builder
+  
 ---
 ### 24. Optimized Search System
 - Real-world frontend architecture
