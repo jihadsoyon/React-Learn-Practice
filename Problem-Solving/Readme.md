@@ -359,6 +359,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Efficient filtering
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/optimized-search-system
   
 ---
 
