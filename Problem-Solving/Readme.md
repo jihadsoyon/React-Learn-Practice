@@ -235,7 +235,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Array manipulation + optimization
-  
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/data-table-app**
 ---
 
 ### 17. Weather Dashboard App
@@ -249,6 +250,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Async API handling
 - Error/loading states
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/weather-dashboard
   
 ---
 
@@ -262,6 +265,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Scalable state architecture
+
+ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/mini-redux
   
 ---
 
@@ -276,6 +281,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Performance optimization
   
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/virtualized-large-list
+
 ---
 
 ### 20. Reusable Custom Hooks Library
@@ -290,6 +297,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Abstraction & reusability
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/react-custom-hooks-library
   
 ---
 
@@ -304,6 +313,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Complex UI sync
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/realtime-chat-ui
   
 ---
 
@@ -319,6 +330,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - Data visualization
   
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/advanced-dashboard-analytics
+  
 ---
 
 ### 23. Drag & Resize Components Builder
@@ -332,6 +345,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 **Challenge::**
 - DOM calculations
   
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/drag-resize-builder
+  
 ---
 ### 24. Optimized Search System
 - Real-world frontend architecture
@@ -344,6 +359,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Efficient filtering
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/optimized-search-system
   
 ---
 
@@ -357,6 +374,8 @@ repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solvi
 
 **Challenge::**
 - Authentication flow
+
+repo: https://github.com/jihadsoyon/React-Learn-Practice/tree/main/Problem-Solving/role-based-dashboard
   
 ---
 
