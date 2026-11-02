@@ -9,7 +9,7 @@ const InstallApps = () => {
     console.log(installedApps, setInstalledApps);
 
     const handleUnInstall = (app) => {
-        const NewApps = installedApps.filter(apps=> apps.id !== app.id)
+        const NewApps = installedApps.filter(apps => apps.id !== app.id)
         setInstalledApps([...NewApps])
         toast.success(`${app.title} is uninstalled`)
 
@@ -18,9 +18,11 @@ const InstallApps = () => {
 
     return (
         <div className='container mx-auto my-5'>
-            <h2 className='text-6xl font-bold text-purple-600 my-3'>Installed Apps</h2>
+            {
+                installedApps.length === 0 ? <h2 className='bg-gray-500 text-center py-5 text-white'>No install app found</h2> : 
             <div className=''>
-                {
+                <h2 className='font-bold text-5xl text-purple-600'>Installed apps</h2>
+                  {
                     installedApps.map((app, ind) => <div key={ind}>
                         <div className='flex justify-between items-center bg-gray-300 my-4 p-5 border border-5 border-gray-500 rounded-2xl'>
                             <div>
@@ -34,6 +36,7 @@ const InstallApps = () => {
                     </div>)
                 }
             </div>
+            }
         </div>
     );
 };
