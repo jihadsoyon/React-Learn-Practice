@@ -12,7 +12,7 @@ const useApps = () => {
             setTimeout(() => {
                 setApps(apps)
                 setloading(false)
-            }, 1500)
+            }, 500)
         }
         fetchApps()
 

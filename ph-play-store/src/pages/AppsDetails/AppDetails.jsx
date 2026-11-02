@@ -5,13 +5,15 @@ import useApps from '../../hooks/useApps';
 import { RingLoader } from 'react-spinners';
 import { MdInstallDesktop } from "react-icons/md";
 import { InstallAppsContext } from '../../context/InstalledAppsContext';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const { appID } = useParams();
     const { apps, loading } = useApps();
     const expectedApp = apps.find(app => String(app.id) === appID);
+    console.log(expectedApp);
 
-    const {installedApps, setInstalledApps} = useContext(InstallAppsContext);
+    const { installedApps, setInstalledApps } = useContext(InstallAppsContext);
 
     if (loading) {
         return (
@@ -21,16 +23,23 @@ const AppDetails = () => {
         );
     }
 
-    const handleInstallApp = ()=> {
-        setInstalledApps([...installedApps, expectedApp])
+    const handleInstallApp = () => {
+        const isExistApp = installedApps.find(app => app.id == expectedApp.id)
+        if (isExistApp) {
+            toast.error(`${expectedApp.title} is already installed`)
+        } else {
+            setInstalledApps([...installedApps, expectedApp])
+            toast(`${expectedApp.title} is installed`)
+        }
+
     }
 
 
     return (
         <div className='container mx-auto shadow p-5 my-5 text-center'>
-            <img src={expectedApp.image} alt={expectedApp.companyName} className='h-[200px] mx-auto'/>
+            <img src={expectedApp.image} alt={expectedApp.companyName} className='h-[200px] mx-auto' />
             <h2 className="font-bold text-6xl">{expectedApp.companyName}</h2>
-            <button className='btn bg-purple-600 text-white my-5 hover:bg-purple-800' onClick={()=> handleInstallApp()}>Install Now <MdInstallDesktop /></button>
+            <button className='btn bg-purple-600 text-white my-5 hover:bg-purple-800' onClick={() => handleInstallApp()}>Install Now <MdInstallDesktop /></button>
         </div>
     );
 };
