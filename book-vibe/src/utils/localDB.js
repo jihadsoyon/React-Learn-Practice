@@ -1,7 +1,7 @@
 
 const getAllReadListFromLocalDB = () => {
 const allReadList = localStorage.getItem("storedBooks");
-console.log(allReadList, "readlist from localDB")
+// console.log(allReadList, "readlist from localDB")
 
 if(allReadList) return JSON.parse(allReadList);
 return [];
@@ -23,7 +23,7 @@ if(!isAllreadyExist){
 
 const getAllWishListFromLocalDB = () => {
 const allWishList = localStorage.getItem("wishList");
-console.log(allWishList, "wishlist from localDB")
+// console.log(allWishList, "wishlist from localDB")
 
 if(allWishList) return JSON.parse(allWishList);
 return [];

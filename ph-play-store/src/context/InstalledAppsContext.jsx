@@ -16,7 +16,6 @@ const InstalledAppsProvider = ({ children }) => {
     }
 
 
-
     return <InstallAppsContext.Provider value={data}>
         {children}
     </InstallAppsContext.Provider>
